@@ -1,4 +1,5 @@
 import { NextPage } from 'next';
+import './globals.css';
 
 const Home: NextPage = () => {
   return (
