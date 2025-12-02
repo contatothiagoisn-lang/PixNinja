@@ -2,8 +2,9 @@
 
 import { createClient } from '@supabase/supabase-js'
 
+'use client'
 export const dynamic = 'force-dynamic'
-export const revalidate = 0
+
 
 export default function SignIn() {
   const supabase = createClient(
